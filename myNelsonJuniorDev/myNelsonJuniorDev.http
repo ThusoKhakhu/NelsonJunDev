@@ -1,0 +1,6 @@
+@myNelsonJuniorDev_HostAddress = http://localhost:5279
+
+GET {{myNelsonJuniorDev_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
