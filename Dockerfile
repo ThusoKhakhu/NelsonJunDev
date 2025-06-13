@@ -6,7 +6,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
 # Copy only the project file first and restore dependencies
-COPY ["NelsonJunDev.csproj", "./"]
+COPY ["NelsonJunDev/NelsonJunDev.csproj", "./"]
 RUN dotnet restore "NelsonJunDev.csproj"
 
 # Copy everything else and build
